@@ -14,7 +14,7 @@ services:
     image: backend
     build: ./backend
     ports:
-      - 8080:8080
+      - 8000:8000
     environment:
       - REDIS_HOST=redis_server
       - POSTGRES_HOST=postgres_server
